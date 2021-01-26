@@ -1,3 +1,8 @@
+/*Universal Selector*/
+
+
+
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -24,6 +29,13 @@ background-color: #171717;
 #header {
 }
 #header h1 a {
+		background-image:url('../img/masthead.jpg');
+	display:block;
+	height: 140px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	
 }
 #nav {
 	background-color: #000;
@@ -58,10 +70,28 @@ background-color: #171717;
 #content {
 	margin: 20px;
 }
+
+#content h2{
+	border-bottom:2px solid #DC143C;
+}
+#content h3{
+	border-bottom:2px solid #9932CC;
+}
+#content h4{
+	border-bottom:2px solid #FF1493;
+}
+
 #content p {
 	margin-top: 5px;
 	margin-bottom: 15px;
 }
+
+
+#content a:hover{
+	background:red;
+}
+
+
 #footer {
 	background-color: #000;
 	color: #FFF;
@@ -79,9 +109,9 @@ background-color: #171717;
 color: red;
 }
 
-img{
-        max-width: 100%;
-        max-height: 100%;
-        display: block; /* remove extra space below image */
-      
-    }
+.img-right{
+	float:right;
+	border:1px solid #c0c0c0;
+	padding:5px;
+	margin:10px 0 10px 20px;
+}
