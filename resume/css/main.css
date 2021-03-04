@@ -86,7 +86,61 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/*------------------Typography-------------------*/
 
+body{
+  font-family: "Open Sans", sans-serif;
+}
+
+
+/*------------------Fluid Images-------------------*/
+
+img{
+  max-width: 100%;
+  height: auto;
+  
+}
+
+
+/*------------------Design Time Styles-------------------*/
+
+.container{
+  
+}
+
+/*------------------Helper Classes-------------------*/
+
+.visuallyhidden {
+  border:0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin:-1px;
+  overflow:hidden;
+  padding:0;
+  position: absolute;
+  width:1px;
+  white-space: nowrap; /*1*/
+}
+
+/*------------------Global Styles-------------------*/
+
+
+img {
+  max-width:100%;
+  height:auto;
+}
+
+h1{
+  text-align:center;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +314,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
