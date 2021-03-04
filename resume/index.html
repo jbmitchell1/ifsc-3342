@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html class="no-js" lang="">
 
@@ -25,7 +26,7 @@
 <body>
 
   <!-- Add your site or application content here -->
-  <header>
+ <header class="container">
     <!-- Main navigation -->
     <nav class="primary">
       <a href="#about">About</a>
@@ -33,19 +34,14 @@
       <a href="#experience">Experience</a>
       <a href="#education">Education</a>
     </nav>
-    
-    <link rel="stylesheet" href="resume.css" media="screen">
-
-    
-    
   </header>
   <!-- Main -->
-  <main itemscope itemtype="http://schema.org/Person">
-    <h1>John Benjamin Mitchell</h1>
+  <main itemscope itemtype="http://schema.org/Person" class="container">
+    <h1>John Mitchell</h1>
     <section id="about">
-      <h2>Personal details</h2>
-      <img itemprop="image" src="http://www.fillmurray.com/400/400" alt="John Benjamin Mitchell">
-      <p itemprop="description">Resume with Microdata</p>
+      <h2 class="visuallyhidden">Personal Details</h2>
+      <img itemprop="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/7248/headshot.jpg" alt="Your Name">
+      <p itemprop="description">Thomas Wallace is a web developer and Senior Instructor in the Information Science Department at UA Little Rock. This is a sample resume for an assignment in his responsive design course taught every Spring in the UA Little Rock Information Science Department.</p>
       <dl>
         <dt>Name</dt>
         <dd itemprop="name">
@@ -54,7 +50,7 @@
         <dt>Date of birth</dt>
         <dd itemprop="birthDate"><time datetime="1976-10-12">10/17/1993</time></dd>
         <dt>Nationality</dt>
-        <dd itemprop="nationality">USA</dd>
+        <dd itemprop="nationality">Nationality</dd>
         <dt>Location</dt>
         <dd itemprop="homeLocation">Arkansas</dd>
         <dt>Telephone</dt>
@@ -76,9 +72,9 @@
 
       </dl>
       <ul class="related-links">
-        <li><a itemprop="url" rel="me" href="https://github.com/jbmitchell1">github</a></li>
-        <li><a itemprop="url" rel="me" href="https://linkedin.com/in/john-mitchell-355a801bb">linkedin</a></li>
-        <li><a itemprop="url" href="resume.pdf" download>pdf resume</a></li>
+      <li><a itemprop="url" rel="me" href="https://github.com/profile"> <i class="fab fa-github-square"></i>github</a></li>
+      <li><a itemprop="url" rel="me" href="http://linkedin.com/profile"><i class="fab fa-linkedin-in"></i>linkedin</a></li>
+      <li><a itemprop="url" href="resume.pdf" download><i class="far fa-file-pdf"></i>pdf resume</a></li>
       </ul>
     </section>
     <section id="skills">
@@ -94,22 +90,22 @@
       <h2>Experience</h2>
       <!-- current job -->
       <article class="job">
-        <h3 itemprop="jobTitle">Admin Assistant</h3></h3>
+        <h3 itemprop="jobTitle">Admin Assistant</h3>
         <div itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-          <span itemprop="name">City of Bauxite</span>
+          <span itemprop="name">Bauxite City Hall</span>
           <span>February 2017 - February 2019</span>
           <p itemprop="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit...</p>
           <span itemprop="location" itemscope itemtype="http://schema.org/Place">
           <a itemprop="url" href="http://link-to-company.com">Company URL</a>
           <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-          <span itemprop="addressLocality">6055 Stanley Circle,USA</span>
+          <span itemprop="addressLocality">6055 Stanley Circle Bauxite,USA</span>
           </span>
           </span>
         </div>
       </article>
       <!-- Previous Jobs - Notice Slightly Different Format-->
       <article class="job" itemscope itemtype="http://schema.org/Event/Job">
-        <h3 itemprop="name">Part Time Laborer</h3>
+        <h3 itemprop="name">Senior Developer</h3>
           <span itemprop="location" itemscope itemtype="http://schema.org/Place">
           <span itemprop="name">Company Name 2</span>
           <a itemprop="url" href="http://link-to-company.com">Company URL</a>
@@ -138,19 +134,20 @@
     <section id="education">
       <h2>Education</h2>
       <article class="certificate" itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
-        <h3 itemprop="description"><abbr title="Bachelor of Science">BS</abbr>Information Science</h3>
+        <h3 itemprop="description"><abbr title="bachelor of Science">BS</abbr>Information Science</h3>
           <span itemprop="name">University of Arkansas at Little Rock</span>
-          <span itemprop="location" itemscope>2801 S. University Ave, USA</span>
+          <span itemprop="location" itemscope>Little Rock , USA</span>
           <span>2019-2021</span>
       </article>
     </section>
   </main>
   <!-- Footer -->
-  <footer>
+  <footer class="container">
     <div id="copyright">
       &copy; company. All rights reserved.
     </div>
-  </footer>  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  </footer>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
@@ -163,6 +160,3 @@
 </body>
 
 </html>
-
-
-
