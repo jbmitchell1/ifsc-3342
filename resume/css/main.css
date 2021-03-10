@@ -548,8 +548,16 @@ main.container {
 }
 
 
-
+/*
 @media only screen and (max-width:380px) {
 .related-links li {margin-right:10px}
+
+}
+*/
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  .related-links li{margin-right:1px;}
 
 }
