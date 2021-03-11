@@ -82,7 +82,7 @@ nav a:hover {
 }
 
 main {
-  padding: 1px 20px;
+  padding: 2px 20px;
 }
 
 main h1 {
@@ -119,6 +119,7 @@ dl {
   grid-template-columns: 8em 1fr;
   /* Shorthand */
   grid-template: auto / 8em 1fr;
+
 }
 
 dt {
@@ -133,6 +134,7 @@ dd {
   padding: 10px 0;
   border-bottom: 1px solid #999;
   grid-column: 2;
+
 }
 
 .related-links {
@@ -170,7 +172,7 @@ dd {
 
 .job,
 .certificate {
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid blue; 
   padding-bottom: 20px;
 }
 
@@ -180,7 +182,10 @@ dd {
 .job *[itemprop="addressLocality"],
 .certificate *[itemprop="name"] {
   display: block;
+  
 }
+
+
 
 .job h3 {
   margin: 20px 0 0 0;
@@ -203,7 +208,6 @@ main.container{
     "experience"
     "skills";
 }
-
 .page-title{
   grid-area: title;
 }
@@ -212,7 +216,6 @@ main.container{
 }
 #skills{
   grid-area: skills;
-
 }
 #experience{
   grid-area: experience;
@@ -221,6 +224,7 @@ main.container{
   grid-area: education;
 }
 
+  
 
 
 
@@ -228,15 +232,30 @@ main.container{
 
 @media screen and (min-width:768px){
   
+  
 main.container {
       max-width:900px;
-    grid-template-columns: 36.5% auto;
-    grid-template-areas:
+    grid-template-columns:repeat(2, 1fr);
+text-align:center;
+  font-size:1.6em;
+grid-template-areas:
       "title title"
       "about about"
-      "skills experience"
-      ". education";
+      "education education"
+     "experience experience"
+    "skills skills"
   }
+  
+
+li{
+display: inline;
+  padding: 8px 16px;
+
+}
+  
+ 
+  
+  
   header.container{
     max-width:900px;
   }  
@@ -260,10 +279,14 @@ main.container {
   
 .related-links{
   grid-area:related;
-  border-bottom:1px solid #999;
+  border-bottom:1px solid red;    /*Here is where my line is. OGC=#999*/
   padding-bottom:50px
 }
-  
+
+
+
+
+
 }
 
 
