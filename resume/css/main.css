@@ -174,6 +174,9 @@ dd {
 .certificate {
   border-bottom: 1px solid blue; 
   padding-bottom: 20px;
+    font-family: Optima, sans-serif;
+
+  
 }
 
 .job *[itemprop="jobTitle"],
@@ -190,6 +193,7 @@ dd {
 
 .job h3 {
   margin: 20px 0 0 0;
+  font-family: Optima impact;
 }
 
 footer {
@@ -230,9 +234,22 @@ main.container{
 
   
 li.skill{
-display: block;
+display: inline-block;
 list-style-type: none;
+border:2px;
+border-style: solid;
+  border-color: black;
+  margin:2px;
+  padding:5px;
 }
+
+
+
+h2{
+
+  font-family: Snell Roundhand impact;
+}
+
 
 
 /*----------------------Tablet Breakpoint-----------------------*/
@@ -254,9 +271,8 @@ grid-template-areas:
   }
 
 
-li{
+li.skill{
 display: block;
-
 
 }
   
@@ -312,7 +328,7 @@ experience.job{
 
 
 
-@media screen and (min-width:1224px){
+@media screen and (min-width:1477px){
   
   
 main.container {
@@ -340,6 +356,7 @@ grid-template-areas:
   }  
   
   /* Nested Grid Example */
+  /* Nested Grid Example */
   #about{
     display:grid;
     grid-gap:2em;
@@ -347,7 +364,7 @@ grid-template-areas:
     grid-template-areas:
        "bio details "
       "related details"
-
+      
       
   
       
@@ -356,6 +373,7 @@ grid-template-areas:
   
   .experience{
     text-align:center;
+    
   }
       
    .bio{
@@ -379,10 +397,19 @@ experience.job{
   grid-template-columns: 1fr 1fr;
   background-color: #2196F3;
   padding: 10px;
+
+  
 }
 
 
-      
+
+
+}
+
+
+
+
+     
   }
   
   
