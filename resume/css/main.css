@@ -57,7 +57,7 @@ a:visited {
 
 nav.primary {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
   /* --- Using Repeat Keyword ---*/
   grid-template-columns: repeat(4, 1fr);
   padding: 20px 20px 0px 20px;
@@ -183,6 +183,7 @@ dd {
 .certificate *[itemprop="name"] {
   display: block;
   
+  
 }
 
 
@@ -194,19 +195,22 @@ dd {
 footer {
   text-align: center;
   padding: 20px 0;
+  
 }
 
 /* Reorder Source Using Grid */
 
 main.container{
+  text-align:center;
   display: grid;
   grid-gap: 1em;
   grid-template-areas:
     "title"
     "about"
-    "education"
     "experience"
-    "skills";
+    "education"
+        "skills";
+
 }
 .page-title{
   grid-area: title;
@@ -225,7 +229,10 @@ main.container{
 }
 
   
-
+li.skill{
+display: block;
+list-style-type: none;
+}
 
 
 /*----------------------Tablet Breakpoint-----------------------*/
@@ -245,15 +252,15 @@ grid-template-areas:
      "experience experience"
     "skills skills"
   }
-  
+
 
 li{
-display: inline;
-  padding: 8px 16px;
+display: block;
+
 
 }
   
- 
+
   
   
   header.container{
@@ -266,7 +273,7 @@ display: inline;
     grid-gap:2em;
     grid-template-columns: 300px 1fr auto;
     grid-template-areas:
-      "bio details details"
+      "bio details details "
       "related related related"
   }
   
@@ -285,6 +292,13 @@ display: inline;
 
 
 
+experience.job{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
 
 
 }
@@ -294,8 +308,90 @@ display: inline;
 
 
 
+/*----------------------Desktop view Breakpoint-----------------------*/
 
 
+
+@media screen and (min-width:1224px){
+  
+  
+main.container {
+      max-width:100%;
+    grid-template-columns:repeat(3, 1fr);
+text-align:center;
+  font-size:1.6em;
+grid-template-areas:
+    
+      "title title title"
+      "about about skills"
+     
+      "education education education"
+     "experience experience experience"
+  }
+
+  
+
+li.skill{
+display: block;
+
+}
+  
+
+  
+  
+  header.container{
+    max-width:100%;
+  }  
+  
+  /* Nested Grid Example */
+  #about{
+    display:grid;
+    grid-gap:2em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "related related related"
+     "details"
+
+      
+  
+      
+  }
+  
+  
+  .experience{
+    text-align:center;
+  }
+      
+   .bio{
+  grid-area:bio;
+}
+
+.details{
+  grid-area:details;
+}
+  
+.related-links{
+  grid-area:related;
+  border-bottom:1px solid red;    /*Here is where my line is. OGC=#999*/
+  padding-bottom:50px
+}
+
+
+
+experience.job{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+
+      
+  }
+  
+  
+  
+ 
 
 
 
