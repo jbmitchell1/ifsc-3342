@@ -321,20 +321,16 @@ main.container {
 text-align:center;
   font-size:1.6em;
 grid-template-areas:
-    
+  
       "title title title"
       "about about skills"
-     
       "education education education"
      "experience experience experience"
   }
 
   
 
-li.skill{
-display: block;
 
-}
   
 
   
@@ -349,8 +345,8 @@ display: block;
     grid-gap:2em;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-    "related related related"
-     "details"
+       "bio details "
+      "related details"
 
       
   
