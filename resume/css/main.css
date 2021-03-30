@@ -255,6 +255,7 @@ h2{
 
 #experience{
   background: #E6E6FA;
+  padding:20px;
 }
 
 
@@ -265,11 +266,16 @@ h2{
 
 #about{
   background:#FFF5EE;
+  padding:10px;
 }
 
 #skills{
   background:#FFC0CB;
 }
+
+
+
+
 
 
 /*----------------------Tablet Breakpoint-----------------------*/
@@ -333,6 +339,7 @@ experience.job{
   grid-template-columns: 1fr 1fr;
   background-color: #2196F3;
   padding: 10px;
+  
 }
 
 
