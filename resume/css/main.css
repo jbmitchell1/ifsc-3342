@@ -234,13 +234,14 @@ main.container{
 }
 
 li.skill{
-display: inline-block;
+display: block;
 list-style-type: none;
 border:2px;
 border-style: solid;
   border-color: black;
-  margin:2px;
-  padding:5px;
+  margin:0px;
+  padding:4px;
+  margin-right: 40px;
 }
 
 
@@ -290,7 +291,7 @@ grid-template-areas:
 
 
 li.skill{
-display: block;
+display: inliine block;
 
 }
   
