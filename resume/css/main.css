@@ -16,11 +16,12 @@ body {
 img {
   max-width: 100%;
   height: auto;
+  
 }
 
 /* ------ Design Time Styles -------*/
 .container {
-  max-width: 700px;
+  max-width: 1550px;
   margin: 0 auto;
 }
 
