@@ -348,11 +348,11 @@ experience.job{
 
 
 
-@media screen and (min-width:1477px){
+@media screen and (min-width:1224px){
   
   
 main.container {
-      max-width:100%;
+      max-width:5000px;
     grid-template-columns:repeat(4, 1fr);
 text-align:center;
   font-size:1.6em;
