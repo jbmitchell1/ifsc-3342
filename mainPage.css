@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#links li a{
+    
+    color: blue;
+}
+
+h2{
+    margin-left: 20px;
+}
+
+#links li{
+     margin:0 0 10px 0; 
+   color: red;
+}
