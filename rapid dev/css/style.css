@@ -98,19 +98,45 @@ textarea {
 
 .container{
   margin-bottom: 40px;
+  
 }
 
 
 .header1{
   text-align:center;
+  margin-bottom: 40px;
 }
 
 
+.p1{
+  margin-bottom: 40px;
+
+ color:red;
+}
 
 
+.container1{
+  background-color: #87CEFA;
+ padding:25px;
+}
 
 
+.container2{
+  background-color: green;
+   padding:25px;
 
+}
+
+
+footer{
+  background-color:black;
+overflow: hidden;
+text-align:center;
+}
+
+footer p{
+  color:white;
+}
 
 /* ==========================================================================
    Helper classes
