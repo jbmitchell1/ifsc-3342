@@ -345,7 +345,9 @@ text-align:center;
   }
   
   
-  
+  .fish h1{
+    text-align:center;
+  }
   
   
 /*--------------------------------Media Queries-----------------------------------------*/  
