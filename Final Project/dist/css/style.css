@@ -145,8 +145,9 @@ textarea {
   
 .overview{
   
-  background-color: gray;
-  
+  background-color: #F0F8FF;
+  padding-bottom: 25px;
+ margin-bottom: 25px;
 }
   
   .overview h1{
@@ -203,7 +204,7 @@ textarea {
 
 .card img{
   width:250px;
- 
+ padding-top:15px;
 }
   
   
@@ -353,7 +354,7 @@ text-align:center;
      
      
      .image1{
-       
+     
        width: 100%;
        height: 250px;
        
