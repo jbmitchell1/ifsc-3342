@@ -107,7 +107,19 @@ textarea {
               
               
               
-  /* Add a black background color to the top navigation */
+
+
+
+     .image1{
+     
+       max-width: 100%;
+       width: 100%;
+
+     }
+
+
+
+
 .topnav {
   background-color: black;
   overflow: hidden;
@@ -200,6 +212,7 @@ textarea {
 
 .container {
   padding: 2px 16px;
+
 }
 
 .card img{
@@ -352,34 +365,59 @@ text-align:center;
   
 /*--------------------------------Media Queries-----------------------------------------*/  
   
-   @media screen and (min-width: 330px) {
-     
-     
+@media only screen 
+and (min-device-width : 300px) 
+and (max-device-width : 400px) {
+   
      .image1{
      
        width: 100%;
        height: 250px;
        
      }
+}
+   
+   
+   
+   
+   
+   
+   
+   @media only screen 
+and (min-device-width : 400px) 
+and (max-device-width : 720px) {
+   
+     .image1{
      
-   }
-   
-   
-   
-   @media screen and (min-width:1224px){
-
-  .image1{
-       
        width: 100%;
-       height: 500px;
+       height: 350px;
        
      }
-     
-
-  
+}
    
-   }
-  
+   
+   
+   
+   
+   
+   
+   
+   @media only screen 
+and (min-device-width : 720px) 
+and (max-device-width : 900px) {
+   
+     .image1{
+     
+       width: 100%;
+       height: 550px;
+       
+     }
+}
+   
+   
+    
+   
+    
   
   @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -414,6 +452,7 @@ text-align:center;
   
  
    @media (max-width: 600px) { 
+     
   .grid-container { 
       grid-template-columns: 1fr; 
       grid-template-areas: "card" 
@@ -608,4 +647,3 @@ text-align:center;
     page-break-after: avoid;
   }
 }
-
