@@ -205,7 +205,39 @@ margin-bottom: 15px;
     height: 150px;
   }
   
+         
+.ramps img{
+    width: 100%;
+    height: 200px;
+
+  }
+  
 }
+
+
+
+/*------Breakpoint for my android device------*/
+@media (min-width:362px)  { 
+  
+  .image1{
+    width: 100%;
+    height: 150px;
+  }
+  
+       
+.ramps img{
+    width: 100%;
+    height: 200px;
+
+  }
+  
+       
+
+}
+
+
+
+
 
 @media (min-width:641px)  {  
   .image1{
@@ -216,6 +248,17 @@ margin-bottom: 15px;
     margin-top: 25px;
     display: block;
   }
+  
+              
+.ramps img{
+    width: 96%;
+    height: 200px;
+ margin-left: auto;
+    margin-right:auto;
+    display: block;
+  }
+
+  
    }
 
 
@@ -228,7 +271,15 @@ margin-bottom: 15px;
     margin-top: 25px;
     display: block;
   }
-  
+
+ .ramps img{
+    width: 92%;
+    height: 250px;
+ margin-left: auto;
+    margin-right:auto;
+    display: block;
+  }
+
 
 }
 
@@ -243,13 +294,23 @@ margin-bottom: 15px;
     display: block;
   }
   
+        .ramps img{
+    width: 90%;
+    height: 300px;
+ margin-left: auto;
+    margin-right:auto;
+    display: block;
+  }
+
+
+  
 }
 
-
+/*
      
 .ramps img{
-    width: 65%;
-    height: 400px;
+    width: 88%;
+    height: 200px;
     display: block;
     margin-right:auto;
     margin-left:auto;
@@ -259,7 +320,7 @@ margin-bottom: 15px;
   
    
    
-   
+   */
    
    
   
